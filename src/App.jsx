@@ -22,9 +22,9 @@ function App() {
 
         <a href="https://twitter.com/gerardojao" target="_blank" rel="noreferrer"><i className="fab fa-twitter" ></i></a>
 
-        <a href="http://www.linkedin.com/shareArticle?url=https://bit.ly/3rsDqEd" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
+        <a href="http://www.linkedin.com/shareArticle?url=https://portfolioreact-blush.vercel.app/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
 
-        <a title="Whatsapp" href="https://api.whatsapp.com/send?text=Son%20una%20gran%20%20empresa%20https://bit.ly/3rsDqEd " target="_blank" rel="noreferrer"><i className="fab fa-whatsapp" aria-hidden="true"></i></a>
+        <a title="Whatsapp" href="https://api.whatsapp.com/send?text=Mira%20este%20portafolio%20https://portfolioreact-blush.vercel.app/ " target="_blank" rel="noreferrer"><i className="fab fa-whatsapp" aria-hidden="true"></i></a>
 
        
       </div> 
