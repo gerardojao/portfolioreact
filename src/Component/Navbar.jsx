@@ -21,20 +21,21 @@ const Navbar = () => {
     };
   }, []);
 
+
   return (
     <nav className={` ${isSticky ? 'sticky' : ''}`}>
       <div className="navbar__container">
         <Link to="main" className="logo" smooth={true} duration={2000}>
-          <img src={Logo} alt="apple" />
+          <img src={Logo} alt="gerardojao" />
         </Link>
         <input type="checkbox" className="menu-btn" id="menu-btn" />
         <label htmlFor="menu-btn" className="menu-icon">
           <span className="nav-icon"></span>
         </label>
-        <ul className="menu">
+        <ul className="menu" >
           <li className="navbar__link">
             {' '}
-            <Link to="home" className={`${isSticky ? 'navbar__link--white a' : 'navbar__link--a a'}`}>
+            <Link to="home" className= {`${isSticky ? 'navbar__link--white a' : 'navbar__link--a a'}`}>
               Home
             </Link>
           </li>

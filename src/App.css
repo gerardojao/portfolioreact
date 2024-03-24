@@ -36,6 +36,16 @@ input{
   margin-top:10px;
   width: 60px;
 }
+#main{
+  min-height: 500px;
+  width:100%;
+  height: 100vh;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-image: url("../public/assets/ISOTIPO.png"); */
+  background-color: #111;
+}
 
 nav {
   position: fixed;
@@ -1117,33 +1127,32 @@ transition:all .3s ease-in-out;
   }
 @media(max-width:800px){
     .menu-icon{
-          display:block;}
+          display:block;
+        }
       nav{
           justify-content: space-between;
           height: 65px;
           padding: 0px 30px;
       }
-      .logo img{
-          width:100px;
-      }
+  
       .header-btns{
           margin: 0;
       }
       .menu{
           display:none;
           position:absolute;
-          top:65px;
+          top:0;
           right:0px;
-          background-color:#000000;
-         
+          background-color: #222;         
           border-bottom:4px solid lightgray;
-          width:40%;
+          width:50%;
           padding:0px;
           margin:0px;
       }
-      .menu li{
+      /* .menu li{
           width:100%;
-      }
+      } */
+      
     
       nav .menu li a{
           width:100%;
@@ -1169,6 +1178,7 @@ transition:all .3s ease-in-out;
           position:relative;
           transition: background 0.2s ease-out;
           width:18px;
+          z-index: 999;
       }
       nav .menu-icon .nav-icon:before,
       nav .menu-icon .nav-icon:after{
@@ -1205,6 +1215,7 @@ transition:all .3s ease-in-out;
       }}
 @media(max-width:400px){
 
+  
           .s-box{
               width: 100%;
               height:400px;
@@ -1215,6 +1226,7 @@ transition:all .3s ease-in-out;
              .name h1 span{
                font-size:1.2rem;
                 }
+        
       }
 @media(max-width:376px){
         .subscribe-input{
@@ -1360,7 +1372,7 @@ font-size: 1.1rem;
     transition-delay:.2s;
    
 }
-
+/*
 @media (max-width: 768px) {
   .navbar__container {
     padding: 0 10px;
@@ -1412,10 +1424,6 @@ font-size: 1.1rem;
     padding-top: 80px;
     transition: all 0.3s ease;
   }
-  .menu--active {
-    left: 50;
-  }
-
   .navbar__link {
     display: block;
   }
@@ -1440,7 +1448,7 @@ font-size: 1.1rem;
     display: block;
 
     right: 2.5vw;
-    /* background: none; */
+  
   }
   .fas {
     display: flex;
@@ -1471,7 +1479,80 @@ font-size: 1.1rem;
     min-height: 300px;
   }
 }
-
+*/
+/*
+@media (max-width: 604px) {
+  .navbar__container {
+    padding: 0 10px;
+  }
+  .menu {
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    background-color: #222;
+    left: -100%;
+    top: 0;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+  }
+  .menu--active {
+    left: 0;
+  }
+  .navbar__link {
+    display: block;
+  }
+  .navbar__link--a {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+  }
+  .navbar__link--a:hover {
+    color: var(--main-color);
+  }
+  .navbar__link--white {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  .navbar__link--white:hover {
+    color: var(--main-color);
+  }
+  #panel-btn {
+    display: block;
+    top: 2vh;
+    right: 2.5vw;
+  }
+  .fas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home__content--2 {
+    font-size: 45px;
+  }
+  .home__content--3 {
+    font-size: 35px;
+  }
+  .home__content--link {
+    font-size: 20px;
+    padding: 8px 20px;
+  }
+  .n-hide {
+    display: none;
+  }
+  .about__content--1 img {
+    height: 350px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  .service__content--card {
+    min-height: 300px;
+  }
+}
+*/
 /* contact me section */
 .contact__title {
   font-family: "Ubuntu", sans-serif;
@@ -1616,6 +1697,7 @@ footer .rrss a [title] {
     margin-right: auto;
   }
 }
+/*
 @media (max-width: 604px) {
   .navbar__container {
     padding: 0 10px;
@@ -1687,6 +1769,7 @@ footer .rrss a [title] {
     min-height: 300px;
   }
 }
+*/
 @media (max-width: 380px) {
   .mensaje {
     display: block;
